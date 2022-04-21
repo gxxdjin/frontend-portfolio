@@ -1,0 +1,218 @@
+.sec1{
+    width: 100%;
+    padding: 50px;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.sec1_ban{
+    position: relative;
+    height: 302px; width: 100%;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    background-image: url(../img/sv06.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec1_txt{
+    position: absolute;
+    left: 60px;
+    bottom: 50px;
+}
+.sec1_txt>h2{
+    display: block;
+    font-size: 50px;
+    line-height: 1.48;
+    color: #fff;
+    font-weight: 400
+}
+.sec1_txt>p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.4;
+}
+
+.sec2{
+    vertical-align: top;
+    margin: auto;
+    max-width: 1500px;
+    margin-bottom: 80px;
+}
+.sec2_top{
+    margin-bottom: 50px;
+}
+.sec2_top>.Hi{
+    display: flex;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    text-align: left;
+}
+.bord{
+    display: flex;
+    width: 50px; height: 6px;
+    border-bottom: 1px solid black;
+    padding: 6px ;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+.sec2>p{
+    font-size: 20px;
+    line-height: 29px;
+    color: #999;
+    margin-bottom: 80px;
+}
+article>h3{
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.44;
+    font-weight: bold;
+    color: #fea4c0;
+    margin: 80px 0;
+    word-break: keep-all;
+}
+.process_wrap>ul{
+    display: flex;
+}
+.process_pro{
+    width: 20%;
+    text-align: center;
+    position: relative;
+    padding: 0px 18px;
+    box-sizing: border-box;
+}
+.process_pro>div{
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 100%;
+    min-height: 153px;
+    border: 1px solid #d8d8d8;
+    border-radius: 25px;
+    padding: 0px 20px;
+    background-color: #fff;
+}
+.pro_aft>div::after{
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 21px;
+    background-repeat: no-repeat;
+    background-image: url(../img/join_step_arrow.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    right: -25px;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.process_pro>div>span{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #cec0eb;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    top: -23px;
+    left: 50%;
+    margin-left: -23px;
+}
+.confirm{
+    margin: 50px 0;
+}
+.confirm>ul>li>p{
+    font-size: 20px;
+    line-height: 33px;
+    color: #999;
+    padding-left: 14px;
+    position: relative;
+}
+.confirm>ul>li>p>span{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4px;
+    padding: 0 15px;
+    background-color: #7fc2eb;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 26px;
+}
+.mamber{
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+
+.member_type{
+    margin-bottom: 80px;
+    margin-left: -20px;
+    margin-right: -20px;
+    font-size: 0;
+    display: flex;
+}
+.member_type>li{
+    width: 33.333333%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.member_type>li>strong{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    line-height: 112px;
+    color: #fff;
+    border-radius: 56px;
+    font-weight: 500;
+}
+.purple{
+    background-color: #cec0eb;
+}
+.yellow{
+    background-color: #f6dda8;
+}
+.blue{
+    background-color: #c5e1f2;
+}
+.member_type>li>p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #646464;
+    margin-top: 40px;
+    padding: 0 40px;
+}
+.member_type>li>p>span{
+    color: #ee7399;
+}
+.join_btn{
+    margin: auto;
+    width: 220px; height: 62px;
+    border-color: #ee7399;
+    background-color: #ee7399;
+    color: #fff;
+    font-size: 18px;
+    line-height: 62px;
+    padding: 0px 9px;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    border-radius: 2px;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+footer{
+    background-color: #fff;
+}
+
+

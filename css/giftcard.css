@@ -1,0 +1,156 @@
+main{
+    width: 100%;
+    position: relative;
+    padding-top: 220px;
+}
+section{
+    padding: 0 160px;
+}
+.sec_b{
+    padding: 0;
+}
+.banner{
+    width: 100%;
+}
+.banner{
+    width: 1920; height: 560px;
+    background-image: url(../img/banner/map-2562138_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner>h2{
+    font-size : 60px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    stroke: 3px black;
+    line-height: 560px;
+}
+.banner>h2::selection {
+    background: none;
+}
+
+.present{
+    padding: 100px;
+    margin: auto;
+    width: 800px;
+}
+.present>img{
+    width: 100%;
+}
+.g_div{
+    display: flex;
+}
+.g_left{
+    width : 40%;
+}
+.g_left li{
+    padding:20px;
+}
+.g_left li>img{
+    width: 80%;
+}
+.g_left li>p{
+    font-size: 20px;
+    padding: 20px 0;
+    color: #333;
+}
+h3{
+    font-weight: 600;
+    font-size: 26px;
+    color: #333;
+}
+
+h4{
+    padding: 20px 0;
+    font-weight: 500;
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+}
+.g_right{
+    width: 60%;
+}
+.g_right p{
+    font-weight: 500;
+    font-size: 23px;
+    color: #333;
+    padding: 10px 0 ;
+}
+.right_div{
+    display: flex;
+    padding: 20px 0;
+}
+.right_div>div{
+    width: 50%;
+    padding: 20px 0;
+}
+.right_l{
+    font-size: 30px;
+    color: #333;
+    font-weight: 600;
+}
+.right_l>strong{
+    font-size: 22px;
+    color: #666;
+}
+.g_button>li{
+    padding: 20px 0;
+}
+.right_r>p{
+    font-size: 18px;
+}
+.g_button li>span{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    padding:10px 15px;
+    color: #333;
+    border: 1px solid #ebebeb;
+    border-radius: 20px;
+}
+.g_button li>span:hover{
+    background-color: #ae0f14;
+    color: #fff;
+    font-weight: 600;
+    transition: 1s;
+}
+.r_info>p{
+    padding: 20px 0;
+    font-size: 18px;
+    color: #333;
+}
+.warn{
+    margin-top: 50px;
+}
+
+.warn>p{
+    font-size: 15px;
+    color: #666;
+}
+
+.g_bottom{
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+.g_bot>strong{
+    font-weight: 600;
+    font-size: 18px;
+}
+.g_bot>div{
+    display: flex;
+
+}
+.g_bot>div>div{
+    padding: 20px;
+}
+.bot_num{
+    font-size: 45px;
+    color: #666;
+}
+.bot_exp>p{
+    font-size: 15px;
+    padding: 5px 0;
+    line-height: 25px;
+    color: #666;
+}

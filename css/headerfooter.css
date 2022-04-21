@@ -1,0 +1,191 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+*{
+    font-family: NotoSans-Medium, sans-serif;
+}
+a{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+header{
+    background-color:#FFF;
+    width: 100%; height: 90px;
+    padding-top: 30px;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 9999; 
+    border-bottom: 1px solid #ebebeb;
+}
+body{
+    position: relative;
+}
+.h_bot{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    padding-left: 80px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.h_left{
+    display: flex;
+}
+.h_left_btn{
+    display: flex;
+    padding: 10px 350px 0 30px;
+}
+.h_left_btn>li{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 20px;
+}
+.h_left_btn>li>a{
+    color:black
+}
+.h_slide{
+    overflow: hidden;
+}
+.h_slide>li{
+    font-size: 16px;
+    padding: 10px 0;
+}
+.h_slide>li>a{
+    color: #888888;
+}
+.h_slide>li>a:hover{
+    color: #ae0f14;
+    font-weight: 500;
+}
+.r_left>.r_icon{
+    display: flex;
+    padding-top: 15px;
+}
+.r_icon>a{
+    padding: 0 10px;
+}
+.h_login{
+    background-image: url(../img/icons8-male-user-24.png);
+    width: 25px; height: 25px;
+    background-repeat: no-repeat;
+}
+.h_cart{
+    background-image: url(../img/icons8-add-shopping-cart-24.png);
+    width: 23px; height: 24px;
+    background-repeat: no-repeat;
+}
+.r_right{
+    display: flex;
+    justify-content:flex-end;
+    position: relative;
+}
+.chae{
+    line-height: 28px;
+    text-align: center;
+    width: 70px; height: 60px;
+    background-color: #ae0f14   ;
+}
+.chae>a{
+    color: azure;
+}
+.r_search{
+    line-height: 60px;
+    text-align: center;
+    width: 70px; height: 60px;
+    background-color: #303238;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.r_search span{
+    cursor: pointer;
+}
+.logo{
+    width: 180px; height: 62px;
+}
+.logo>a>img{
+    width: 160px;
+}
+/* 검색바 나오는거 */
+.search_box{
+    width: 400px; height: 60px;
+    position: absolute;
+    display: none;
+    right: 140px;
+    background-color: #fff;
+}
+.search_box input{
+    width:95%; height: 60px;
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    line-height: 60px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+::placeholder{
+    font-size: 18px;
+}
+/*footer*/
+footer{
+    width: 100%;
+    padding: 20px 80px 5px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #303238;
+}
+footer>article{
+    color: #888;
+}
+.f_flex{
+    display: flex;
+}
+footer>article>.f_flex>ul{
+    display: flex ;
+}
+footer>article>.f_flex>.f_foot>li{
+    padding: 10px 20px;
+    color: #888;
+    font-weight: 600;
+}
+footer>article>.f_flex>.f_foot>li>a:hover{
+    color: #ebebeb;
+}
+.f_sns{
+    
+     justify-content: right;
+     padding-left: 200px;
+}
+.f_sns>li{
+    padding: 10px 10px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.f_sns>li:hover{
+    opacity: 0.9;
+}
+footer>article>address{
+    width: 100%;
+    border-top: 1px solid #888;
+    padding-top: 20px;
+}
+footer>article>p{
+    padding: 10px 0;
+}
+footer a{
+    color: #888;
+}
+@media only screen and (max-width:1024px) {
+    .h_left_btn>li{
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        padding: 0 20px;
+    }
+    .h_slide>li{
+        padding: 3px 0;
+    }
+    .h_slide>li>a{
+        color: #666;
+        font-size: 13px;
+    }
+}

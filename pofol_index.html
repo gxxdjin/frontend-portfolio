@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/pofol_headfoot.css">
+    <link rel="stylesheet" href="css/index.css">
+   
+    <title>EunJin's PortFolio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo1.png">
+        </div>
+        <ul>
+            <li id="h_home" onclick="home()"> HOME </li>
+            <li id="h_about" onclick="about()">ABOUT</li>
+            <li id="h_project" onclick="project()">PROJECTS</li>
+            <li id="h_contact" onclick="contact()">CONTACT</li>
+        </ul>
+    </header>
+    <main>
+        <div id="wrap" class="bubbles">
+            
+            <section id="sec1">
+                <h2>
+                    Hello<br>
+                    I'm Frontend<br>
+                    Developer
+                    <div class="circle  move" data-speed="7"></div>
+                    <div class="circle1 up move"  data-speed="1.5"></div>
+                    <div class="circle2  move"  data-speed="3"></div>
+                    <div class="circle3 up move"  data-speed="4.5"></div>
+                    <div class="circle4  move"  data-speed="2.5"></div>
+                    <div class="circle5  move"  data-speed="2.5"></div>
+                    <div class="circle6  move"  data-speed="5"></div>
+                    <div class="circle7 up move"  data-speed="2"></div>
+                    <div class="circle8 up move"  data-speed="3"></div>
+                </h2>
+            </section>
+            <section id="sec2">
+                <h3 >PROFILE</h3>
+                <div class="pro_img">
+                    <img src="img/mimo.png">
+                </div>
+                <div class="pro_wrap">
+                    <div class="pro">
+                        <p id="phead"><strong>이름 </strong>  조은진</p>
+                        <p><strong>생일 </strong>  1999년 5월 28일</p>
+                        <p><strong>거주지 </strong>  서울시 도봉구 거주</p>
+                        <p><strong>학력 </strong>   신한대학교 컴퓨터공학과 졸업예정</p>
+                        <p><strong>교육 </strong>   그린 컴퓨터 아카데미 프론트엔드/pwa 과정 수료(900시간)</p>
+                        <p id="phead">skills
+                            <div class="circle  move" data-speed="1"></div>
+                            <div class="circle1  move"  data-speed="2.5"></div>
+                        </p>
+                        <div class="pro_img">
+                            <img src="img/5352-html5_102567.png" alt="html5" onmouseenter="zoomIn(event)"
+                            onmouseleave="zoomOut(event)">
+                            <img id="pro_i" src="img/pngwing.com.png" alt="css" onmouseenter="zoomIn(event)"
+                            onmouseleave="zoomOut(event)">
+                            <img id="pro_i" src="img/js.png" alt="javascript" onmouseenter="zoomIn(event)"
+                            onmouseleave="zoomOut(event)">
+                            <img src="img/jquery.png" alt="jquery" onmouseenter="zoomIn(event)"
+                            onmouseleave="zoomOut(event)">
+                            <img id="pro_i" src="img/php.png" alt="php" onmouseenter="zoomIn(event)"
+                            onmouseleave="zoomOut(event)">
+                            <img src="img/ps.png" alt="photoshop" onmouseenter="zoomIn(event)"
+                            onmouseleave="zoomOut(event)">
+                            <img id="pro_i" src="img/mysql.png" alt="androidStudio" onmouseenter="zoomIn(event)"
+                            onmouseleave="zoomOut(event)">
+                            <img id="pro_i" src="img/android.png" alt="androidStudio" onmouseenter="zoomIn(event)"
+                            onmouseleave="zoomOut(event)">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec3">
+                <div id="sec3_left">
+                    <div class="sec3_title">
+                        <img src="img/KakaoTalk_20211007_204037263_01.jpg">
+                        <p class="attr up move"  data-speed="0.5">
+                            fitured_<br>
+                            work
+                            
+                        </p>
+                    </div>
+                </div>
+                <div id="sec3_right" class="sec3_hov " >
+                    <div class="acebed"  onclick="ace()">
+                        <div class="ace_box"></div>
+                        <p id="ace_rot">view project</p>
+                        <img src="img/acebed/21060711202106748921.jpg">
+                        <p class="categ up move" data-speed="0.5">Acebed <br> web clone</p>
+                    </div>
+                </div> 
+                <div class="circle  move" data-speed="1.5"></div>
+                <div class="circle2 up  move"  data-speed="6"></div>
+               
+                <div id="sec3_left" class="sec3_hov">
+                    <div  class="roundAround" onclick="round()">
+                        <div class="round_box"></div>
+                        <p id="round_rot">view project</p>
+                        <img src="img/roundAround/visual01.jpg">
+                        <p class="categ up move" data-speed="0.5">roundAround<br> web clone</p>
+                    </div>
+                </div>
+          
+                <div id="sec3_right" class="sec3_hov move">
+                    <div class="eoyeomo" onclick="eoyeomo()">
+                        <div class="eoyeo_box"></div>
+                        <p id="round_rot" >view project</p>
+                        <img src="img/eoyeomo/mc4_1.jpg">
+                        <p class="categ up  move"  data-speed="0.5">Eoyeomo <br>web clone</p>
+                    </div>
+                </div>
+                <div class="circle1 up  move"  data-speed="4.5"></div>
+                <div class="circle2 up  move"  data-speed="1.5"></div>
+                <div class="circle4  move"  data-speed="2.5"></div>
+                <div class="circle4 up move"  data-speed="1.5"></div>
+                <div class="circle3 up move"  data-speed="3.5"></div>
+                <div class="circle5 move"  data-speed="4.5"></div>
+                <div class="circle  move"  data-speed="5.5"></div>
+                <div class="circle6 up move"  data-speed="0.5"></div>
+                <div class="circle8 move"  data-speed="1"></div>
+               
+                <div id="sec3_left" class="sec3_hov">
+                    <div  class="kumkang" onclick="kumkang()">
+                        <div class="kum_box"></div>
+                        <p id="kum_rot">view project</p>
+                        <img src="img/kumkang/hi_visual_3.jpg">
+                        <p class="categ up move"  data-speed="0.5">kumkang<br> renewal</p>
+                    </div>
+                </div>
+                <div></div>
+                <div id="sec3_right" class="sec3_hov move">
+                    <div class="banner">
+                        <div class="banner_box"></div>
+                        <p id="banner_rot" >view project</p>
+                        <img src="img/wave_02.jpg">
+                        <p class="categ up  move"  data-speed="0.5">Banners</p>
+                        <ul class="ban_slide">
+                            <li class="flex">
+                                <img class="fle_l" src="img/banner/trip_배너2.png">
+                                <img class="fle_r" src="img/banner/위스키.png">
+                              
+                            </li>
+                            <li class="flex">
+                                <img class="fle_l" src="img/banner/스타쿠폰.png">
+                                <img class="fle_r" src="img/banner/여행_배너3.png">
+                            </li>
+                            <li class="flex">
+                                <img class="fle_l" src="img/banner/쿠첸쿠폰.png">
+                                <img class="fle_r" src="img/banner/배너_부활절.png">
+                            </li>
+                            <li class="flex">
+                                <img class="fle_l" src="img/banner/틈새라면 볶음면.png">
+                                <img class="fle_r" src="img/banner/화장품.jpg">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+              
+            </section>
+            <section>
+                <div  id="sec_cont">
+                    <h4>
+                    CONTACT  
+                    </h4>
+                    <div class="contact_d">
+                        <div class="cont_name">
+                            <strong>조은진</strong>
+                            <p>Cho EunJin</p>
+                        </div>
+                        <div class="cont_hp">
+                            <strong>PHONE</strong>
+                            <p>010-5535-5863</p>
+                        </div>
+                        <div class="cont_email">
+                            <strong>E-MAIL</strong>
+                            <p>whdmswls0528@naver.com</p>
+                        </div>
+                    </div>
+                    <div class="circle up move" data-speed="1.5"></div>
+                    <div class="circle1 up move"  data-speed="3"></div>
+                    <div class="circle5 up move"  data-speed="5"></div>
+                    <div class="circle2 up move"  data-speed="6.5"></div>
+                    <div class="circle6 up move"  data-speed="1"></div>
+                    <div class="circle2 up move"  data-speed="3.5"></div>
+                    <div class="circle4 up move"  data-speed="6.5"></div>
+                    <div class="circle4 up move"  data-speed="1.5"></div>
+                    <div class="circle8 up move"  data-speed="9"></div>  
+                    
+                </div>
+                
+            </section>        
+           
+        </div>
+    </main>
+    
+    <footer>
+        <p>Copyright © 2021 | All rights reserved. | EUNJIN CHO</p>
+       
+    </footer>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.easeScroll.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

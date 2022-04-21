@@ -1,0 +1,218 @@
+
+main{
+    width: 100%;
+    position: relative;
+    padding-top: 220px;
+}
+.banner{
+    width: 100%;
+}
+.banner{
+    width: 1920; height: 560px;
+    background-image: url(../img/banner/mountains-6540497_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner>h2{
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    stroke: 3px black;
+    line-height: 560px;
+}
+.banner>h2::selection {
+    background: none;
+}
+.sec_post{
+    padding: 200px 0;
+    max-width: 90%;
+    box-sizing: border-box;
+    margin: auto;
+}
+.p_top{
+    padding-bottom: 50px;
+}
+.p_left{
+    float: left;
+}
+.p_left>p{
+    padding: 12px 5px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.p_left>p>strong{
+    font-weight: 600;
+}
+.p_right{
+    float: right;
+}
+.search_sel{
+    height: 40px;
+    width: 150px;
+    box-sizing: border-box;
+    padding: 0 3px;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #666;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+.search_txt{
+    box-sizing: border-box;
+    padding: 0 9px;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    color: #333;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+}
+.search_btn{
+    border: 1px #ccc solid;
+    background: #333;
+    padding: 0 15px;
+    margin-bottom: 4px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    vertical-align: middle;
+    border-radius: 5px;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+.board_post{
+    margin: auto;
+   
+}
+.post_table{
+    border-top: 1px solid #666 ;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.post_table>ul{
+    display:flex;
+    vertical-align: middle;
+    
+}
+.post_table>ul>li{
+    padding: 0 20px;
+    color: #888;
+    vertical-align: middle;
+
+}
+.thead{
+    padding: 10px 0;
+    background-color: #f7f7f7;
+}
+.thead>li{
+    font-weight: 600;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+.tbody{
+    padding: 10px 0;
+    line-height: 32px;
+    border-top: 1px solid #ebebeb;
+}
+.tbody>li{
+    color: #333;
+    font-size: 18px;
+}
+.b_num{
+    width: 60px;
+    text-align: center;
+}
+.b_tit{
+    padding-left: 20px;
+    width: calc(100% - 295px)!important;
+}
+.b_tit>span{
+    cursor: pointer;
+}
+.b_tit>span:hover{
+  color:rgb(54, 0, 0);
+
+}
+.b_wr{
+    width: 90px;
+    text-align: center;
+}
+.b_dat{
+    width: 100px;
+    text-align: center;
+}
+.paging{
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+    margin:0 auto;
+}
+.paging>a{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #646464;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border-radius: 100%;
+}
+.paging>a:hover{
+    background: #333;
+    color: white;
+}
+.next{
+    border-radius: 100%;
+    border: 1px solid #dcdcdc;
+}
+.next>img{
+    padding-bottom: 2px;
+}
+@media only screen and (max-width: 1100px) {
+    .sec_b .banner{
+        height: 500px;
+    }
+    .sec_b .banner h2{
+        font-size: 55px;
+        line-height: 500px;
+    }
+    .sec_m{
+        padding: 0 60px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .sec_b .banner{
+        height: 450px;
+    }
+    .sec_b .banner  h2{
+        font-size: 50px;
+        line-height: 450px;
+    }
+    .sec_m{
+        padding: 0 20px;
+    }
+    .b_dat{
+        display: none;
+    }
+    .tbody>li{
+        font-size: 15px;
+    }
+    .sec_post{
+        width: 100%;
+    }
+}

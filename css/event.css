@@ -1,0 +1,119 @@
+main{
+    width: 100%;
+    padding-top: 155px;
+}
+main>h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: #333;
+    line-height: 280px;
+    text-align: center;
+}
+.ann_search{
+    width: 1440px;
+    padding: 70px 0;
+    margin: auto;
+    background: #f7f7f7;
+
+}
+.ann_search>div{
+    display: flex;
+    justify-content: center;
+}
+.select_wrap{
+    margin-right: 10px;
+    position: relative;
+}
+.select_wrap>p{
+    padding-right: 100px;
+    background: url(../img/select-icon.png) right center no-repeat;
+    border-bottom: 3px solid #333;
+    line-height: 30px;
+}
+.select{
+    display: none;
+    position: absolute;
+    box-shadow: 1px 1px 3px #666;
+    width: 100%;
+    font-size: 18px;
+}
+.sea_wrap{
+    border-bottom: 3px solid #333;
+    line-height: 30px;
+}
+.sea_wrap>input{
+    width: 300px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+}
+.sea_wrap>span{
+    display: block;
+    float: right;
+    width: 27px; height: 26px;
+    background: url(../img/search-icon.png) no-repeat;
+}
+.ann_list_wrap{
+    width: 1440px;
+    margin: auto;
+}
+.ann_list_wrap>p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+    line-height: 22px;
+    padding: 30px 0 15px ;
+}
+.ann_list_wrap>p>strong{
+    font-weight: 700;
+}
+.ann_list_wrap>table{
+    width: 100%;
+}
+.ann_list_wrap>table tr{
+    border-top: 1px solid #ebebeb;
+    padding: 45px 0;
+}
+.ann_list_wrap>table tr:hover{
+    background-color: #f7f7f7;
+}
+.ann_list_wrap>table tr:hover .title{
+    color: #0890c0;
+}
+.num{
+    width: 100px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #888;
+}
+.title{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #333;
+    padding: 45px 0;
+}
+.date{
+    width: 150px;
+    text-align: center;
+    color: #aaa;
+    font-size: 16px;
+    font-weight: 300;
+}
+.page_move>ul{
+    display: flex ;
+    justify-content: center;
+}
+.page_move>ul>li>a{
+    display: block;
+    padding: 10px;
+    color: #666;
+    font-weight: 700;
+    border: 1px soid #fff;
+    margin: 30px 3px;
+}
+.p_active>a{
+    border: 1px solid #0890c0;
+}

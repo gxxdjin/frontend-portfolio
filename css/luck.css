@@ -1,0 +1,70 @@
+main{
+    width: 100%;
+    padding: 155px 0;
+}
+main>h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: #333;
+    line-height: 280px;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+}
+h3{
+    width: 100%;
+    font-size: 36px;
+    font-weight: 300;
+    color: #333;
+    line-height: 42px;
+    letter-spacing: -0.07em;
+    background: url(../img/user-menu-share2.png) no-repeat right;
+}
+section{
+
+    padding-top: 50px;
+    width: 1000px;
+    margin: auto;
+}
+section>.date{
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #aaa;
+    line-height: 1;
+    letter-spacing: 1.5px;
+}
+section>div>.p_head{
+    width: 1000px;
+    margin: 50px  0;
+    font-size: 17px;
+    font-weight: 400;
+    color: #666;
+    line-height: 32px;
+}
+.textarea{
+    width: 1000px;
+    margin: 0 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #666;
+    line-height: 32px;
+}
+table{
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+    line-height: 32px;
+    border: 0;
+
+}
+tbody{
+    display: table-row-group;
+   
+    border-color: inherit
+}
+td{
+    width: 426px;
+    height: 22px;
+
+}

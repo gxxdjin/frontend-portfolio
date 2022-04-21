@@ -1,0 +1,357 @@
+header{
+    width: 100%;
+    padding: 40px 80px 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    z-index: 99999;
+}
+
+.ham{
+    display: block;
+    width: 30px; height: 2px;
+    background-color: black;
+    margin: 7px 0;
+}
+.h_search>a{
+    display: block;
+    width: 35px; height: 35px;
+    background-image: url(../img/roundAround/icons.png);
+    text-indent: -99999;
+}
+main{
+    position: relative;
+}
+.twin{
+    display: flex;
+}
+.twin>article{
+    width: 50%;
+    box-sizing: border-box;
+}
+.L_txt{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-left: 80px;
+}
+.L_txt>h1{
+    width: 100%;
+}
+
+.bg_img1{
+    background: url(../img/roundAround/visual01.jpg); 
+    background-position: center right ;
+}
+.L_txt>p{
+    width: 100%;
+    margin: 60px auto;
+    color: #555;
+}
+.main_2{
+    width: 100%;
+    background-image: url(../img/roundAround/parallax_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*parallax*/
+    color: #fff;
+    text-align: center;
+    position: relative;
+    height: 720px;
+}
+.main_2>article{
+    position: absolute;
+    top: 240px;
+    left: 39%;
+}
+.main_2>article>h2{
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 1.15;
+}
+.main_2>article>p{
+    margin: 32px 0 60px;
+}
+.main_2 a{
+    display: inline-block;
+    width: 180px;
+    padding: 10px 0;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+h3{
+    padding: 50px 0 0 ;
+   
+    font-size: 40px;
+    font-weight: 300;
+}  
+
+.main_3>h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    padding: 150px 0 40px;
+}
+.rara{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.bg_img2{
+    background-image: url(../img/roundAround/visual03.jpg);
+    background-position: left top;
+}
+.r_left{
+    display: flex;
+}
+.r_right{
+    display: flex;
+    width: 612px; height: 714px;
+    background-color: #76887F;
+    color: #fff;
+}
+.r_right img{
+    vertical-align: bottom;/*inline태그(중간에 줄간격 생김) 세로정렬 => 줄간격 사라짐*/
+}
+.r_title>.r_txt{
+    height: 486px;
+    padding: 160px 24px 0;
+    box-sizing: border-box;
+}
+.r_txt>a{
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    padding-top: 20px;
+}
+.r_cut{
+    width: 384px; height: 714px;
+}
+.cut_wrap{
+    display: flex;
+}
+.cut_wrap>img{
+    width: 192px; height: 192px;
+}
+.cut_two{
+    margin: 0;
+    padding: 0;
+}
+.cut_two>img{
+    width: 384px; height: 384px;
+}
+.cut_txt{
+    margin: 0;
+    width: 384px; height: 128px;
+    padding: 40px 60px;
+    background-color: #76887F;
+    color: #fff;
+    align-content: center;
+    box-sizing: border-box;
+}
+.cut_txt>div{
+    height: 100%;
+}
+.twin_2{
+    display: flex;
+    flex-wrap: wrap;
+}       
+.second{
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain ;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+.twin_2_bg{ 
+    background-image: url(../img/roundAround/visual03.jpg);
+    background-position: left top;
+    margin-top: 100px;
+} 
+.twin_2_r{
+    width: 50%;
+    padding-top: calc(50vh - 100px);
+}
+.twinr_con{
+    width: 486px;
+    margin: auto;
+    padding: 60% 0;
+}
+.twinr_con>p{
+    margin: 20px 0 40px;
+    font-weight: 500;
+}
+.twinr_con>div>a{    
+    display: inline-block;
+    width: 120px;
+    padding: 10px 0;
+    border: 1px solid #b3b3b3;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+.product{
+    display: flex;
+    justify-content: center;
+}
+.pro_img{
+    margin: 20px;
+}
+h4{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-top: 40px;
+}
+.pro_txt{
+    padding-top: 30px;
+}
+.product_1>.pro_txt>p{
+    color: #555;
+    margin: 16px 0 52px;
+    text-align: left;
+}
+.pro_list_wrap>ul{
+    display: flex;
+    margin: 30px 0 50px 20px;
+}
+.pro_list_wrap>ul>li{
+    text-align: center;
+    width: 180px; height: 164px;
+    padding: 0 20 px;
+    display:block;
+}
+.pro_list_wrap>ul>li>img{
+    width: 93%;
+}
+.pro_list_wrap>ul>li>p{
+    opacity: 0;
+    color: #555;
+}
+.pro_list_wrap>ul>li:hover p{
+    opacity: 1;
+}
+.product_2{
+    margin-top: 100px;
+}
+.product_2>.pro_txt{
+    text-align: right;
+}
+.product_2>.pro_txt>p{
+    color: #555;
+    margin: 16px 0 52px;
+  
+}
+.pro_list{
+    padding-left: 100px;
+}
+.bg_img{
+    min-height: 100vh; /*최소높이값,  100vh=화면높이에 100%로 높이값 줌*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 100%;
+}
+.bg_img3{
+    background: url(../img/roundAround//visual02.jpg); 
+    background-position: center right ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 100%;
+}
+.twin_2_l{
+    width: 50%;
+    padding-top: calc(50vh - 100px);
+}
+.twinl_con{
+    width: 486px;
+    margin: auto;
+    padding: 60% 0;
+}
+.twinl_con>p{
+    margin: 20px 0 60px;
+    font-weight: 500;
+}
+.twinl_con>div>a{    
+    display: inline-block;
+    width: 120px;
+    padding: 10px 0;
+    border: 1px solid #b3b3b3;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+.more{
+    color: black;
+    border-bottom: 1px solid#555;
+    font-weight: 600;
+}
+.last{
+    text-align: center;
+    max-width: 1200px;
+    min-width: 1020px;
+    padding: 120px  0;
+    margin: auto;
+}
+.last>p{
+    cursor: pointer;
+    padding: 16px 0 54px;
+    line-height: 40px;
+}
+.list_wrap{
+    text-align: center;
+    margin: auto;
+}
+.list_wrap>ul{
+    display: flex;
+    
+}
+.list_wrap>ul>li{
+    width: 282px;
+    margin-right: 24px;
+ 
+}
+.list_wrap>ul>li>img{
+    width: 100%;
+}
+
+
+/*footer*/
+
+footer{
+    position: relative;
+    padding: 60px 0 40px;
+    background-color: #F9F9F9;
+}
+.logo{
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #EDEDED;
+}
+.foot>.logo>a{
+    width: 160px; height: 46px;
+}
+
+.foot{
+    max-width: 1020px;
+    margin: 0 auto;
+    color: #777;
+    font-size: 14px;
+}
+.foot>ul{
+    display: flex;
+    padding: 15px 0;
+}
+.foot>ul>li{
+   
+    padding-right: 20px;
+}
+.foot>ul>li>a{
+    color: #777;
+    font-weight: 600;
+   
+}
+.copy{
+    padding: 15px 0;
+}

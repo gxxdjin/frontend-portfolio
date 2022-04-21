@@ -1,0 +1,138 @@
+main{
+    width: 100%;
+    position: relative;
+    padding-top: 220px;
+    margin-bottom: 150px;
+}
+section{
+    padding: 50px 160px;
+}
+.sec_b{
+    padding: 0;
+}
+.banner{
+    width: 100%;
+}
+.banner{
+    width: 1920; height: 560px;
+    background-image: url(../img/banner/pinwheels-6535595_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner>h2{
+    font-size : 60px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    stroke: 3px black;
+    line-height: 560px;
+}
+.banner>h2::selection {
+    background: none;
+}
+.tit{
+    position: relative;
+    padding-top: 50px;
+}
+.tit>p{
+    position: absolute;
+    left: 33%; top: 2px;
+    color: #666;
+    text-align: center;
+    letter-spacing: 1px;
+    opacity: 0.15;
+    z-index: -1;
+    font-weight: 600;
+    font-size: 65px;
+}
+h3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ae0f14;
+}
+.content{
+    display: flex;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.cont_img{
+    width: 49%;
+}
+.bar::before{
+    width:6px;
+    margin-right: 3px;
+    height:6px; 
+    display: inline-block;
+    background: #fff;
+    border: 2px solid #c72227;
+    border-radius: 50%;
+}
+.bar{
+    width: 3px; height: auto;
+    background: #c72227;
+}
+.cont_txt{
+    width: 49%;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.txt2{
+    padding-left: 150px;
+}
+.cont_txt>ul>li{
+    margin-top: 1rem;
+    padding-left: .6rem;
+    position: relative;
+    color: #333;
+    letter-spacing: -.55px;
+    font-size: 16px;
+}
+.cont_txt>ul>li>span{
+    width:6px;
+    margin-right: 3px;
+    height:6px; 
+    display: inline-block;
+    background: #fff;
+    border: 2px solid #595757;
+    border-radius: 50%;
+}
+.cont_img>img{
+    width: 450px;
+    padding: 10% 0 0 20%;
+    box-sizing: border-box;
+}
+strong{
+    font-weight: 600;
+}
+
+@media only screen and (max-width:1250px)  {
+    .cont_img>img{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .sec_b .banner{
+        height: 500px;
+    }
+    .sec_b .banner h2{
+        font-size: 55px;
+        line-height: 500px;
+    }
+    main .sec_inner{
+        padding: 0 60px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .sec_b .banner{
+        height: 450px;
+    }
+    .sec_b .banner  h2{
+        font-size: 50px;
+        line-height: 450px;
+    }
+    main .sec_inner{
+        padding: 0 20px;
+    }
+}

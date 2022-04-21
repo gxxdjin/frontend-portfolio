@@ -1,0 +1,108 @@
+#wrap {
+    padding: 200px 0;
+    width: 1280px;
+    margin: auto;
+}
+
+main {
+    width: 100%;
+    display: flex;
+}
+
+article>h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    color: #333;
+}
+
+.login_ww {
+    border: none;
+    background: none;
+    width: 400px;
+    font-size: 18px;
+
+}
+
+.login_wrap>input {
+    display: block;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #dddddd;
+
+}
+.id_pw{
+    margin-left: 30%;
+}
+.id_save{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.sns_login>a {
+    display: inline-block;
+    border: 1px solid #dddddd;
+    padding: 10px 50px;
+    margin: 0 5px;
+    color: #333;
+}
+.sns_login>a>span{
+    margin-left: 4px;
+    margin-bottom: 5px;
+}
+article {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+
+}
+
+
+.login_sum {
+    margin: auto;
+    width: 442px;
+    height: 50px;
+    border: none;
+    background: none;
+    background-color: #ae0f14;
+    color: #fff;
+    line-height: 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+.login_sum:hover{
+   background-color: #ae0f14a9;
+    transition: 1s;
+}
+
+.sign_up{
+
+    border-top: 1px solid #dddddd;
+    margin-top: 20px;
+
+}
+
+.sign_up>p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.sign_up_btn{
+    border: none;
+    background: none;
+    font-size: 15px;
+    border: 1px solid #dddddd;
+    padding: 10px 60px;
+    cursor: pointer;
+
+    box-shadow: inset 0 0 0 0 #ae0f14;
+    transition:ease-out 1s;
+}
+
+.sign_up_btn:hover{
+    color: white;
+    box-shadow: inset 175px 0 0 0 #ae0f14;
+}

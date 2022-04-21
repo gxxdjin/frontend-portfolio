@@ -1,0 +1,449 @@
+main{
+    position: relative;
+}
+section h3{
+    position: relative;
+    margin: 80px 0px;
+    font-size: 40px;
+    font-weight: 300;
+    color: #333;
+    line-height: 54px;
+    text-align: center;
+}
+.spring_1{
+    width: 100%;
+    height: 969px;
+    position: relative;
+    margin: 50px 0;
+    background-image: url(../img/Spring/sub-vis-spring-bg1.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.spring_1>.big_img{
+    padding-right: 100px;
+    width: 100%; height: 969px;
+    border-color: #fff;
+    border-style: solid;
+    border-width: /*200px 80px 100px 80px*/0 ;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.spring_txt{
+    opacity: 0;
+    width: 100%; height: 300px;
+    position: absolute;
+   align-items: center;
+    text-align: center;
+    top: 930px;
+    box-sizing: border-box;
+    color: #fff;
+    z-index: 9999;
+}
+.spring_txt>h2{
+   
+    position: absolute;
+    left: 48%;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.05em;
+}
+.spring_txt>p{
+    left: 23%;
+    top : 80px;
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 34px;
+}
+.spring_2{
+    background-image: url(../img/Spring/spring-sec-bg1.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    position: relative;
+}
+
+.spring_title{
+    position: absolute;
+    opacity: 0;
+    left: 30%;
+    top: 80px;
+}
+.spring_title>h3{
+    position: relative;
+    margin-bottom: 90px;
+    font-size: 40px;
+    font-weight: 300;
+    color: #333;
+    line-height: 54px;
+    text-align: center;
+}
+.spring_2>article{
+    width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.s_type{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.s_type>figure{
+    width: calc(50% - 30px);
+    margin-bottom: 23px;
+    margin-right: 30px;
+
+}
+.spring_fig figure>img{
+    opacity : 0;
+    width: 100%;
+    overflow: hidden;
+}
+.b_type{
+    width: 50%;
+   
+}
+.spring_fig figcaption{
+    font-size: 14px;
+    font-weight: 300;
+    color: #666;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 25px;
+}
+.spring_fig figcaption>strong{
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+    line-height: 24px;
+    padding-left: 5px;
+}
+.spring_3{
+    width: 100%;
+    background-image: url(../img/Spring/spring-sec-bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 450px;
+    overflow: hidden;
+}
+.spring_3>article{
+    display: flex;
+    width: 1440px; 
+    margin: auto;
+  
+}
+
+.zs{
+    width: 20%;
+    padding: 20px 5px;
+    box-sizing: border-box;
+}
+.zs>img{
+    text-align: center;
+}
+.zs>h4{
+    padding: 30px 0 20px;
+    font-size: 30px;
+    color: #3333334d;
+    font-weight: 500;
+    text-align: center;
+}
+.zs>p{
+    position: relative;
+    top: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #666;
+    line-height: 26px;
+}
+.zs_active{
+    color: #333;
+}
+.spring_4{
+    padding: 80px 0;
+}
+.spring_4>article{
+width: 1440px;
+margin: auto;
+display: flex;
+padding-top: 50px;
+}
+.hybrid_left{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 190px;
+
+}
+.zone_txt>ul>li{
+    width: 160px; height: 100px;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: right;
+    flex-direction: column;
+    justify-content: center;
+}
+.zone_txt>ul>li:first-child{
+    height: 100px;
+    border-right: 6px solid #eb6262;
+}
+.zone_txt>ul>li:last-child{
+    margin-top: 5px;
+    height: 405px;
+    border-right: 6px solid #6292eb;
+}
+
+.zone_img{
+    padding-left: 30px;
+    position: relative;
+}
+.red_spot{
+    position: absolute;
+    left: 56px; top: 48px;
+}
+.blue_spot{
+    position: absolute;
+    left: 155px; top: 263px;
+}
+.zone_img>div{
+    /*animation-name: spot;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;*/
+    animation: spot 2s infinite ease-in-out;
+}
+@keyframes spot{
+    0% {transform:scale(1);}
+    50% {transform:scale(0.8);}
+    100% {transform:scale(1);}
+}
+.hybrid_right>div{
+    margin-bottom: 50px ;
+}
+.hybrid_right>h4{
+    font-size: 26px;
+    font-weight: 400;
+    color: #333;
+    line-height: 38px;
+    margin-bottom: 66px;
+}
+.hybrid_right h5{
+    font-size: 20px; 
+    color:#333 ;
+    font-weight: 500;
+    line-height: 40px ;
+}
+.hybrid_right span{
+   
+    display: inline-block;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    height: 40px;
+    padding: 0 24px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-right: 15px;
+}
+strong{
+    font-weight: 600;
+}
+.hybrid_right p{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #666;
+    line-height: 26px
+}
+.brass{
+    padding: 250px 0 160px 0;
+    background-image: url(../img/Spring/spring-sec-bg4.jpg);
+  
+    box-sizing: border-box;
+}
+.brass>article{
+    width: 1440px; 
+    margin: auto;
+    padding: 100px 0 70px;
+    background-color: #fff;
+    text-align: center;
+}
+.brass>article>p{
+    font-size: 26px;
+    color: #333;
+    font-weight: 400;
+    line-height: 38px;
+    margin: 35px 0;
+}
+.brass>article>span{
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+}
+
+.sline>article{
+    width: 1440px;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px ;
+}
+.sline figure{
+    width: 460px;
+}
+.sline figure img{
+    width: 100%;
+}
+
+.sline figcaption{
+    text-align: center;
+}
+.sline h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+    line-height: 1;
+    padding: 20px 0;
+}
+.sline p{
+    font-size: 16px;
+    padding: 0px 25px;
+    color: #666;
+    font-weight: 300;
+    letter-spacing: -0.025em;
+}
+.history{
+    background-image: url(../img/Spring/spring-sec-bg6.jpg);
+    background-size: cover;
+}
+.history>article{
+    padding-left: 55%;
+    text-align: left;
+}
+.history>article>ul{
+    padding-bottom: 100px;
+}
+.history>article>ul>li{
+    font-size: 20px;
+    font-weight: 300;
+    color: #666;
+    line-height: 40px;
+}
+.history h3{
+    position: relative;
+    margin: 80px 0px;
+    font-size: 40px;
+    font-weight: 300;
+    padding: 100px 0 50px;
+    color: #333;
+    line-height: 54px;
+    text-align: left;
+}
+.s_border{
+    width: 100%; height: 100%;
+    border-bottom: 1px solid #ebebeb;
+}
+.spring>p{
+    width: 100%;
+    margin: 40px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.s_list{
+    width: 1440px;
+    margin: auto;
+}
+.s_list>ul{
+    display: flex;
+    justify-content: space-between;
+}
+.s_list>ul>li{
+    font-size: 20px;
+    font-weight: 400;
+    color: #888;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.s_active{
+    font-size: 20px;
+    font-weight: 700!important;
+    color: #333!important;
+    line-height: 40px;
+    border-bottom: 4px  solid #0890c0;
+
+}
+.s_slide{
+    width: 100%;
+}
+.swiper-wrapper{
+    display: flex;
+}
+.spring_wrap{
+    display: flex;
+    padding: 50px 200px;
+    box-sizing: border-box;
+}
+.spring_txt1{
+    width: 700px;
+    padding-right: 100px;
+}
+.spring_txt1>h5{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0890c0;
+    line-height: 30px;
+}
+.spring_txt1>h6{
+    font-size: 40px;
+    font-weight: 700;
+    color: #333;
+    padding: 20px 0;
+}
+.spring_txt1>p{
+    font-size: 20px;
+    font-weight:300;
+    color: #666;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.s_txt>ul>li{
+    display: flex;
+    margin: 20px 0;
+}
+.s_txt li>div:first-child{
+    margin-right: 20px;
+}
+.s_txt li>div>h6{
+    font-size: 20px;
+    font-weight: 700;
+    
+    color: #333;
+    line-height: 1;
+}
+.s_txt li>div>p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    line-height: 28px;
+}
+/* 넓이가 %로 되어있어 이미지의 높이값이 변해야 할 때
+이미지를 백그라운드 이미지로 넣었을 때 높이 값 계산하는 방법
+padding-top = (height / width*100)%
+*/

@@ -1,0 +1,137 @@
+#wrap1{
+    background-color: aqua;
+    width: 500px; height: 500px;
+
+}
+#wrap1>div{
+    width: 200px; height: 200px;
+    position: absolute;
+}
+.box1{
+    background-color: rebeccapurple;
+    left: 50px; top: 50px;
+}
+.box2{
+    background-color: blue;
+    left: 100px; top: 100px;
+}
+.box3{
+    background-color: red;
+    left: 150px; top: 150px;
+}
+#wrap2{
+    width:500px; height: 500px;
+    background-color: cadetblue;
+    position: relative;
+}
+#wrap2>div{
+    width: 200px; height: 200px;
+    position: absolute;
+}
+.box4{
+background-color: burlywood;
+left: 100px; top: 100px;
+}
+.box5{
+background-color: violet;
+left: 200px; top: 200px;
+}
+.box6{
+background-color: tomato;
+
+left: 300px; top: 300px;
+}
+#wrap3{
+    width:500px; height: 500px;
+    background-color: slategray;
+    position: relative;
+}
+#wrap3>div{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.box7{
+background-color: red;
+}
+.box8{
+background-color: blue;
+}
+.box9{
+background-color: blueviolet;
+}
+#slide_bnr{
+    width: 100%;
+    background-color: slategray;
+    position: relative;
+}
+.left_arrow{
+    width: 3px; height: 150px;
+    background-color: teal;
+    position:absolute;
+    left: 50px; top:50%;
+    transform: translateY(-75px);
+}
+.right_arrow{
+    width: 3px; height: 150px;
+    background-color: teal;
+    position:absolute;
+    right: 50px; top:50%;
+    transform: translateY(-75px);
+}
+.bnr_big{
+    width: 90%; height: 100%;
+    background-color: tomato;
+
+    margin: auto;
+}
+.bnr_big>a>img{
+    width: 100%;
+} 
+
+
+#divide{
+    width: 100%; height: 300px;
+    background-color: slategray;
+    position: relative;
+}
+.left{
+    width: 200px; height: 300px;
+    background-color: teal;
+    position:absolute;
+    left: 50px; top:50px;
+}
+.center{
+    width:500px ; height: 200px;
+  background-color: yellow;
+    position: relative;
+   left: 50%; top:50px;
+   transform: translateX(-250px);
+}
+
+
+.right{
+    width: 200px; height: 300px;
+    background-color: teal;
+    position:absolute;
+    right: 50px; top:50px;
+}
+.square{
+    width: 500px; height: 500px;
+    background-color: violet;
+    margin: auto;
+    position: relative;
+}
+.square>div{
+    width: 50px; height: 50px;
+    background-color:thistle;
+    position:absolute;
+    left: 50%; top:50%;
+    transform: translate(-50%, -50%);
+}
+.top_btn{
+    width: 100px; height: 100px;
+    background-color: yellow;
+    position: fixed;
+    right: 0; bottom: 0;
+}

@@ -1,0 +1,111 @@
+.sec1{
+    width: 100%;
+    padding: 50px;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.sec1_ban{
+    position: relative;
+    height: 302px; width: 100%;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    background-image: url(../img/sv01.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec1_txt{
+    position: absolute;
+    left: 60px;
+    bottom: 50px;
+}
+.sec1_txt>h2{
+    display: block;
+    font-size: 50px;
+    line-height: 1.48;
+    color: #fff;
+    font-weight: 400
+}
+.sec1_txt>p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.4;
+}
+/*sec2*/
+.sec2{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+.bord{
+    display: flex;
+    width: 50px; height: 6px;
+    border-bottom: 1px solid black;
+    padding: 6px ;
+    margin-right: 20px;
+    box-sizing: border-box;
+ 
+}
+.sec2_left{
+    width: 829px;
+    padding: 0  25px 0 80px;
+    box-sizing: border-box;
+}
+.sec2_left>.Hi{
+    display: flex;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    text-align: left;
+}
+.sec2_left>h2{
+    display: block;
+    font-size: 54px;
+    padding: 30px 0;
+    line-height: 1.44;
+    font-weight: bold;
+    color: #fea4c0;
+}
+.sec2_left>h3{
+    display: block;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.7;
+    color: #999;
+    padding-bottom: 30px;
+}
+.sec2_left>p{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.73;
+    letter-spacing: 1.5px;
+    color: #c6e1f2;
+}
+.txt_area>p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.67;
+    color: #333;
+    margin-top: 25px;
+}
+.txt_area>p>strong{
+    color: #0076ff !important;
+}
+.sec2_right{
+    width: 831px;
+}
+.sec2_right>div{
+    padding: 10px 70px 10px 10px;
+    box-sizing: border-box;
+}
+.sec2_right>div>img{
+    width: 100%;
+}

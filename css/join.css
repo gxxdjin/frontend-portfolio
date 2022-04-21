@@ -1,0 +1,94 @@
+main{
+    width: 100%;
+    padding-top: 155px;
+    text-align: center;
+}
+main>h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #333;
+    line-height: 280px;
+    
+}
+.border{
+    border-top: 1px solid #ebebeb ;
+}
+main>section>h2{
+    padding: 80px 0 0px;
+    font-size: 28px;
+    font-weight: 300;
+    color: #333333;
+    line-height: 42px;
+    letter-spacing: -2px;
+}
+.join_btn>h3{
+    margin-top: 36px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 1;
+    transition: all 0.3s ease;
+}
+main>section>p{
+    padding-top: 18px;
+    letter-spacing: -2px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #666666;
+    line-height: 30px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.join_wrap{
+    text-align: center;
+    display: flex;  
+    justify-content: center;
+    padding: 80px 0 130px;
+} 
+.join_btn{
+    margin: 0 50px;
+}
+.join_btn>p{
+    font-size: 16px;
+    margin-top: 13px;
+    font-weight: 300;
+    color: #aaa;
+    line-height: 26px;
+    letter-spacing: -1px;
+}
+.join_btn_img{
+    width: 220px; height: 220px;
+    border-radius: 50%;
+    border : 1px solid #ebebeb;
+    transition: all 0.3s ease-in-out;
+    margin: auto;
+}
+.join_blue{
+    position: relative;
+}
+
+.join_blue>div>img{
+    position: absolute;
+    left: 0; top: 0;
+}
+.join_icon_on{
+    opacity: 0;
+}
+.join_icon{
+    opacity: 1;
+}
+.join_blue:hover img{
+    border : 1px solid #0890c8;
+    border-radius: 50%;
+    box-shadow: 1 0 0 10px rgba(0,0,0,0.2);
+}
+.join_blue:hover .join_icon{
+    opacity: 0;
+}
+.join_blue:hover h3{
+    color: #0890c8;
+}
+.join_blue:hover .join_icon_on{
+    opacity: 1;
+}
